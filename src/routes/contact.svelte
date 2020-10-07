@@ -1,5 +1,4 @@
 <script>
-    console.log('contact');
 </script>
 
 <svelte:head>

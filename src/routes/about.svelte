@@ -1,5 +1,4 @@
 <script>
-    console.log('about');
 </script>
 
 <svelte:head>

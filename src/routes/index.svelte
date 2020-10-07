@@ -5,8 +5,6 @@
 	onMount(() => {
 		// safe browser only code 
 	});
-
-    console.log('home');
 </script>
 
 <style>
@@ -48,5 +46,5 @@
 	<img src="no-text-logo.png" alt="logo">
 	<h1>Adopt a pet</h1>
 	<p>Find your next partner right here</p>
-	<a href="pets">View pets</a>
+	<a class="btn" href="pets">View pets</a>
 </div>

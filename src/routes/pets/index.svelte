@@ -14,9 +14,37 @@
     export let pets;
 </script>
 
-<h1>pets</h1>
+<style>
+    ul{
+        padding: 0;
+    }
+    li {
+        list-style-type: none;
+    }
+    li a {
+        display: block;
+        padding: 15px;
+        border: 1px solid #f2f2f2;
+        border-radius: 8px;
+        margin: 10px auto;
+        text-decoration: none;
+    }
+    li a:hover {
+        background: #fbfbfb;
+    }
+    div {
+        text-align: center;
+    }
+</style>
+
+<h1>Pets</h1>
+
 <ul>
     {#each pets as pet}
-    <li><a href="/">{pet.name}</a></li>
+    <li><a rel=prefetch href={`pets/${pet.id}`} >{pet.name}</a></li>
     {/each}
 </ul>
+
+<div>
+    <a rel=prefetch href="/pets/create" class="btn">Add a new pet</a>
+</div>

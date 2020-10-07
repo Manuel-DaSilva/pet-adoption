@@ -42,10 +42,10 @@
 	<div>
 		<h1>Pet adoption</h1>
 		<ul>
-			<li><a class:current={segment === undefined} href=".">home</a></li>
-			<li><a class:current={segment === 'contact'} href="contact">contact</a></li>
-			<li><a class:current={segment === 'about'} href="about">about</a></li>
-			<li><a rel=prefetch class:current={segment === 'pets'} href="pets">pets</a></li>
+			<li><a class:current={segment === undefined} href=".">Home</a></li>
+			<li><a class:current={segment === 'contact'} href="contact">Contact</a></li>
+			<li><a class:current={segment === 'about'} href="about">About</a></li>
+			<li><a rel=prefetch class:current={segment === 'pets'} href="pets">Pets</a></li>
 		</ul>
 	</div>
 </nav>
